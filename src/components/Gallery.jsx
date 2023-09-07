@@ -20,24 +20,21 @@ const Gallery = () => {
     const imageData = [
         {
             alt: 'image1',
-            url: 'https://images.pexels.com/photos/259751/pexels-photo-259751.jpeg?cs=srgb&dl=pexels-pixabay-259751.jpg&fm=jpg'
+            url: 'https://scontent-mia3-2.xx.fbcdn.net/v/t39.30808-6/291980285_476574974468703_7188253895566488783_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=52f669&_nc_ohc=FPS2HUGxOXQAX8aGGpW&_nc_ht=scontent-mia3-2.xx&oh=00_AfDVyKrdX1EQZkTnC4-IMUftnTMvlwle4VccVOA1MFewIA&oe=64FC1A98'
         },
         {
             alt: 'image2',
-            url: 'https://images.pexels.com/photos/5411784/pexels-photo-5411784.jpeg?cs=srgb&dl=pexels-andrea-davis-5411784.jpg&fm=jpg'
+            url: 'https://soscarpettilecleaning.com/wp-content/uploads/2022/01/sos-carpet-and-tile-family.jpg'
         },
         {
             alt: "image3",
-            url: 'https://images.pexels.com/photos/356809/pexels-photo-356809.jpeg?cs=srgb&dl=pexels-daniel-frank-356809.jpg&fm=jpg'
+            url: 'https://soscarpettilecleaning.com/wp-content/themes/yootheme/cache/c9/sos-team-contact-us-bg-c9591996.jpeg'
         },
         {
             alt: "image4",
-            url: 'https://images.pexels.com/photos/6267516/pexels-photo-6267516.jpeg?cs=srgb&dl=pexels-get-lost-mike-6267516.jpg&fm=jpg'
+            url: 'https://scontent-mia3-1.xx.fbcdn.net/v/t1.6435-9/108592192_3181173318617281_6478881692573621195_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=xE-Dxg_ymSsAX9YIXDP&_nc_ht=scontent-mia3-1.xx&oh=00_AfBIbvKjy4iHo3B7Ju6Au3uwI92Ht3Xh8x43yH-aBlwzVQ&oe=651DE61C'
         },
-        {
-            alt: "image5",
-            url: 'https://images.pexels.com/photos/667838/pexels-photo-667838.jpeg?cs=srgb&dl=pexels-huseyn-kamaladdin-667838.jpg&fm=jpg'
-        },
+
     ];
   
     const renderSlides = imageData.map((image) => (
@@ -70,7 +67,7 @@ const Gallery = () => {
             >
                 <Title 
                 text={
-                    'Plans and dimension'
+                    'SOS Air Duct & Dryer Vent Cleaning'
                 }
                 textAlign={'center'}
                 />
@@ -82,13 +79,10 @@ const Gallery = () => {
                     paddingTop: 1,
                 }}
                 >
-                    Rooms Gallery
+                    Family Owned & Operated for over 28 years
                 </Typography>
                 <Paragraph text={
-                    'We have more 5000 reviews and our\
-                    customers trust on our quality product\
-                    and trust own our product. If you interested,\
-                    contact us.'
+                    "Discover Our South Florida Legacy. Family-Owned and Operated Since 1995.SOS, your trusted source for air duct and dryer vent cleaning services in sunny South Florida. For nearly three decades, we've been proudly serving our local community, delivering top-notch indoor air quality solutions that make a difference. A Family Tradition of Service. Our journey began in 1995 when Mitch Pope decided to turn his passion for cleaner, healthier homes into a thriving business. With a hands-on approach and an unwavering commitment to excellence, Mitch Pope built SOS from the ground up, establishing it as a household name throughout South Florida."
                 } 
                 maxWidth = {'sm'}
                 mx={'auto'}

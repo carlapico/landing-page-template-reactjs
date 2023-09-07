@@ -5,11 +5,11 @@ import {
   styled, 
   Typography,
 } from '@mui/material'
-import Link from '@mui/material/Link';
 import FooterTitle from './FooterTitle'
 import FooterLink from './FooterLink'
-import FacebookIcon from '@mui/icons-material/Facebook';
-import InstagramIcon from '@mui/icons-material/Instagram';
+import { Link } from 'react-router-dom'
+// import FacebookIcon from '@mui/icons-material/Facebook';
+// import InstagramIcon from '@mui/icons-material/Instagram';
 
 const Footer = () => {
 
@@ -31,6 +31,7 @@ const Footer = () => {
       flexDirection: 'column',
       gap: 30,
     }
+    
   }));
 
   return (
@@ -43,41 +44,43 @@ const Footer = () => {
     }}
     >
       <StackColumn>
-        <FooterTitle text={'address'} />
-        <FooterLink 
+        <FooterTitle text={'Servicing Broward & Palm Beach County'} />
+        {/* <FooterLink 
         text={'15th Louis St, london 92382, eng'} 
+        /> */}
+        <FooterLink 
+        text={'954.551.4546'}
+        href='tel:9545514546' 
         />
         <FooterLink 
-        text={'25 999-345-10800'} 
-        />
-        <FooterLink 
-        text={'info@housesales.com'} 
+        text={'sossteamers@gmail.com'} 
         />
       </StackColumn>
       
       <StackColumn>
         <FooterTitle text={'our services'} />
-        <FooterLink text={'buy house'} />
-        <FooterLink text={'sell house'} />
-        <FooterLink text={'rent house'} />
-        <FooterLink text={'build house'} />
+        <FooterLink text={'Air Duct Cleaning'} />
+        <FooterLink text={'Dryer Vent Cleaning'} />
+        {/* <FooterLink text={'build house'} /> */}
       </StackColumn>
       <StackColumn>
         <FooterTitle text={'our company'} />
-        <FooterLink text={'reporting'} />
-        <FooterLink text={'get in touch'} />
-        <FooterLink text={'management'} />
+        <FooterLink 
+        text={'About Us'}         
+        component={Link}
+        to='/about'/>
+        <FooterLink text={'Get In Touch'} />
       </StackColumn>
 
       <StackColumn>
-        <FooterTitle text={'hBSales'} />
+        <FooterTitle text={'SOS Air Duct & Dryer Vent Cleaning'} />
         <Stack 
         direction='row' 
         width= '70px'
         maxWidth='100%'
         justifyContent='space-between'
         >
-          <Link href="#" variant="body2" 
+          {/* <Link href="#" variant="body2" 
           sx={{
             color: '#414141',
             "&:hover": {
@@ -96,13 +99,13 @@ const Footer = () => {
           }}
           >
             <FacebookIcon />
-          </Link> 
+          </Link>  */}
         </Stack>
         <Typography 
         variant='caption'
         component='p' 
         >
-          &copy; 2022 HBSales Inc.
+          &copy; 2022 SOS Air Duct & Dryer Vent Cleaning
         </Typography>
       </StackColumn>
     </BoxRow>

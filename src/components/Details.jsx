@@ -33,14 +33,15 @@ const Details = () => {
         >
             <Title 
             text={
-                'Interesting to buy property'
+                'Want us to call you?'
                 } 
             textAlign={'center'}
             />
             <Paragraph 
+            href='tel:9545514546'
             text={
-                'If you are interested to buy the property contact us we will call you. \
-                Shortly to fulfill you requirements and property.'
+                'If you are interested in air duct or dryer vent cleaning feel free to call us at 954.551.4546 or complete this form and we will call you \
+                within 24 hours.'
             }
             maxWidth = {'sm'}
             mx={0}
@@ -55,6 +56,16 @@ const Details = () => {
                 mt: 1,
                 py: 2
             }}>
+                <TextField
+                    margin="normal"
+                    required
+                    fullWidth
+                    id="name"
+                    label="Name"
+                    name="name"
+                    autoComplete="name"
+                    autoFocus
+                />
                 <TextField
                     margin="normal"
                     required

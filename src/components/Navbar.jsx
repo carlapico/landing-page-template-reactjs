@@ -40,7 +40,7 @@ const itemList = [
       to: "/about"
     },
     {
-        text: "Contact",
+        text: "954.551.4546",
         to: "/contact"
     }
 ];
@@ -53,17 +53,21 @@ const Navbar = () => {
         component="nav" 
         position="sticky"
         sx={{ 
-            backgroundColor: 'orange', 
+            backgroundColor: '#2072AF', 
         }}
         elevation={0}
         >
             <StyledToolbar>
                 <Typography
                 variant="h6"
-                component="h2"
-
+                color= '#fff'
+                // "&:hover": {
+                // backgroundColor= 'transparent'
+                // color= '#1e2a5a'               
+                component={Link} 
+                to={'/'}
                 >
-                    HBSales
+                    SOS Air Duct and Dryer Vent Cleaning
                 </Typography>
                 <Box sx={{display: { xs: 'block', sm: 'none' } }}>
                     <DrawerItem /> 

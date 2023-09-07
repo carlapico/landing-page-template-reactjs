@@ -22,16 +22,13 @@ const GetInTouch = () => {
         >
             <Title 
             text={
-                'Contact us to buy property'
+                'Contact us to redeem FREE Air Duct Inspection Offer and breathe easier in your home'
                 } 
             textAlign={'center'}
             />
             <Paragraph 
             text={
-                'It is our commitment to ensure a professional and enjoyable \
-                new home buying experience for you. \
-                If you want to get a home to start living as a family in an \
-                area that you love click the button below.'
+                "Our professional team is dedicated to improving your indoor air quality and ensuring your HVAC system runs efficiently. Don't miss out on this opportunity to remove dust, allergens, and debris from your air ducts, which can lead to a healthier and more comfortable living environment. Trust us to provide a thorough and cost-effective solution for your air duct cleaning needs. Contact us now, and let us help you enjoy cleaner, fresher air in your home."
             }
             maxWidth = {'sm'}
             mx={0}

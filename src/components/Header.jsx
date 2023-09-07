@@ -2,7 +2,7 @@ import React from 'react'
 import { Box, Button, styled, Typography } from "@mui/material";
 import { Link } from 'react-router-dom'
 //img
-import headerImg from '../assets/pexels-binyamin-mellish-186078.png'
+import headerImg from '../assets/AirDuct.png'
 
 const Header = () => {
 
@@ -14,7 +14,7 @@ const Header = () => {
         gap: theme.spacing(2),
         paddingTop: theme.spacing(10),
         // cor de fundo
-        backgroundColor: 'orange',
+        backgroundColor: '#2072AF',
         [theme.breakpoints.down('md')]: {
             flexDirection: 'column',
             alignItems: 'center',
@@ -48,7 +48,7 @@ const Header = () => {
                     color: '#fff',
                 }}
                 >
-                    We'll build house of your dream
+                    Time for your annual AC Duct & Dryer Vent Cleaning?
                 </Typography>
 
                 <Typography
@@ -60,12 +60,13 @@ const Header = () => {
                     color: '#fff',
                 }}
                 >
-                    We have 9000 more review and our customers
-                    trust on out property and quality products.
+                    Book now for a FREE Air Duct or Dryer Vent Inspection. 
                 </Typography>
 
                 <Box>
                     <Button 
+                    component={Link} 
+                    to={'/contact'}
                     variant='contained'
                     sx={{
                         mr: 2,
@@ -85,9 +86,9 @@ const Header = () => {
                         }
                     }}
                     >
-                        buy now
+                        BOOK NOW
                     </Button>
-                    <Button 
+                    <Button  
                     component={Link} 
                     to={'/about'}
                     variant='outlined'
@@ -131,7 +132,7 @@ const Header = () => {
                 src={headerImg}
                 alt="headerImg"
                 style={{ 
-                    width: "100%", 
+                    width: "70%", 
                     marginBottom: -15,
                 }}
                 />

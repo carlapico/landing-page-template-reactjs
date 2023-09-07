@@ -7,8 +7,8 @@ import {
 } from '@mui/material'
 import Title from './Title'
 // img
-import imgDetail from '../assets/pexels-alex-staudinger-1732414.jpg';
-import imgDetail2 from '../assets/pexels-pixabay-271816.jpg';
+import imgDetail from '../assets/How-often-do-I-dust-my-house.webp';
+import imgDetail2 from '../assets/Nugenomics-Blog-2-1080x675.jpg';
 
 
 const GetStarted = () => {
@@ -47,14 +47,12 @@ const GetStarted = () => {
                 >
                     <Title
                     text={
-                        'We make it easy for tenants and landlords'
+                        'Removal of Accumulated Dust and Debris'
                     }
                     textAlign={'start'}
                     />
                     <CustomTypography>
-                        Listing are updated continuously so you<br />
-                        won't miss out on homes that just hit<br />
-                        market until you find your perfect home.
+                        Over time, dust, dirt, pet dander, and other debris can accumulate in your HVAC (Heating, Ventilation, and Air Conditioning) system's ductwork. When the HVAC system operates, it circulates air through these ducts, pushing the particles into your living spaces. Cleaning the air ducts removes this built-up dust and debris, preventing it from continually being redistributed into the air you breathe.<br /> 
                     </CustomTypography> 
                 </Box>
 
@@ -92,17 +90,16 @@ const GetStarted = () => {
                 >
                     <Title
                     text={
-                        'Match with the best agent'
-                        
+                        'Allergen Reduction'
                     }
                     textAlign={'start'}
                     />
                     <CustomTypography>
-                        Our verified partner Agents are local experts who<br /> 
-                        earn an average of 4.8/5 stars from buyers and sellers.
+                        Allergens like pollen, mold spores, and dust mites can find their way into your HVAC system and get trapped in the ductwork. When the system is in operation, these allergens can be carried into your home, causing allergic reactions and respiratory problems for susceptible individuals. Air duct cleaning helps eliminate these allergens, reducing the risk of allergy-related discomfort and health issues.
                     </CustomTypography>
                 </Box>
             </CustomGridItem>
+            
         </Grid>
     )
 }
